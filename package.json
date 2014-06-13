@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-youku",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A NodeBB plugin allows users to embed Youku videos inline in their posts",
   "main": "index.js",
   "scripts": {
