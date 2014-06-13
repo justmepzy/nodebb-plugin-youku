@@ -8,8 +8,8 @@
         { "hook": "filter:post.parse", "method": "parse", "callbacked": true, "priority": 6 }
 
     ],
-    "staticDir": "./static",
-    "css": [
-        "style.css"
-    ]
+    	"staticDirs": {
+        "css": "./static"
+    }
+
 }
