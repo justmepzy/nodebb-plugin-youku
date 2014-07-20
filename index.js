@@ -14,7 +14,7 @@
             '</div>';
 
     Youku.parse = function(postContent, callback) {
-        var	regularUrl = /<a href="(?:http?:\/\/)?(?:v\.)youku.com\/v_show\/id_([\w\-_]+)\.html">.+<\/a>/;
+        var	regularUrl = /<a href="(?:http?:\/\/)?(?:v\.)youku.com\/v_show\/id_([\w\-_]+)\.html(\?.*)?">.+<\/a>/;
 
         if (postContent.match(regularUrl)) {
             postContent = postContent.replace(regularUrl, embed);
