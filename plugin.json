@@ -5,7 +5,9 @@
     "url": "https://github.com/pgroot/nodebb-plugin-youku",
     "library": "./index.js",
     "hooks": [
-        { "hook": "filter:post.parse", "method": "parse", "callbacked": true, "priority": 6 }
+        {
+            "hook": "filter:parse.post", "method": "parse", "priority": 6
+        }
 
     ],
     "css": [
